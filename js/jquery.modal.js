@@ -16,7 +16,7 @@
 			
 			var btn = $(this),
 			modal = btn.next(),
-			closeBtn = $(".close");
+			closeBtn = modal.find(".close");
 		
 		
 			btn.on("click", function(){

@@ -49,3 +49,18 @@ h1    {font-size: 30px; text-align:center; background: #e1e1e1; padding:40px 0; 
 	from{top:-100px; opacity:0}
 	to{top:0; opacity:1}
 }
+
+/* ===== Form styles for Clicktrans Item details ===== */
+.modal-content h2 { margin-top: 0; font-size: 20px; }
+.form-row { margin-bottom: 12px; }
+.form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
+label { display: block; font-weight: 600; margin-bottom: 6px; }
+input[type="text"], input[type="number"], select, textarea, input[type="file"] { width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+.checkbox-inline { margin-right: 16px; font-weight: 400; }
+.hint { color: #666; font-size: 12px; }
+.calc-summary { background: #f7f7f7; border: 1px solid #eee; padding: 8px; border-radius: 4px; font-size: 14px; }
+.form-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 16px; }
+button.primary { background: #0d6efd; color: #fff; border: none; padding: 8px 14px; border-radius: 4px; cursor: pointer; }
+button.secondary { background: #e9ecef; color: #333; border: none; padding: 8px 14px; border-radius: 4px; cursor: pointer; }
+button.primary:hover { background: #0b5ed7; }
+button.secondary:hover { background: #dfe3e8; }
